@@ -1,0 +1,99 @@
+body{
+    background-color:rgb(28, 129, 129)
+}
+
+.cabecalho{
+    height: 80px;
+    background-color: rgb(63, 72, 160);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    border-bottom: 1px solid;
+
+}
+
+.cabecalho .titulo{ 
+    display: flex;
+    gap: 15px;
+
+}
+
+.cabecalho .menu{
+    display: flex;
+    gap: 30px;
+
+}
+
+.cabecalho .menu li a{
+    padding: 30px;
+    color: #e8e8e8;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+#foto{ 
+    position: absolute;
+    height: 100%;
+    width: 99%;
+    
+}
+
+.info{
+    z-index: 1;
+}
+
+
+
+
+.home{
+    position: absolute;
+    height: 100%;
+    width: 100%;    
+}
+
+
+.sobre{
+    background-color: #e8e8e8;
+    position: absolute;
+    height: 100%;
+    width: 99%;
+       
+   
+}
+
+
+#ia{
+    position: absolute;
+    height:70%;
+    width: 70%;
+
+}
+
+#info{
+    margin-left: 35%;
+    margin-right: 15%;
+}
+
+.contato{
+    position: absolute;
+    height: 100%;
+    width: 99%;
+
+}
+
+#footer{
+    background-color: rgb(34, 41, 103);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    border-bottom: 1px solid;
+   
+}
